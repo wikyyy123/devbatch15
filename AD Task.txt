@@ -1,0 +1,72 @@
+Please share the timelines to complete AD tasks user details has been provided to you in the morning. 
+
+•	Active directory Replication updates throughout all servers (RFS)
+##•	Changes in Active directory Group policy
+##•	Rights Assignments/changes alerts
+•	Changes in domain admins, Enterprise Admins, Schema admins groups (4728 Event ID)
+•	System audit policy was changed
+•	Registry Changes
+•	Availability of Kerberos Key Distribution Center Service
+•	Availability of Net Log on Service
+•	server performance (CPU, Memory, Disk)
+•	Servers’ availability	
+
+•	Availability
+----------------------
+•	Response time		Done//AD_RESPONSE PROBE //net_connect
+•	Packet loss		Done//NET_Connect probe
+
+•	AD services//AD SERVER PROBE
+----------------------
+•	Windows Time Service		Done //Ntservices 
+•	DNS Client Service		Done //Ntservices
+•	File Replication Service	Done (DFS Replication Service)
+•	Intersite Messaging Service	Done //Ntservices
+•	Kerberos Key Distribution Center Service	Done //Ntservices
+•	Security Accounts Manager Service	Done //Ntservices
+•	Server Service			Done //Ntservices
+•	Workstation Service		Done //Ntservices
+•	RPC Service			Done //Ntservices	
+•	Net Logon Service		Done //Ntservices
+
+
+•	AD Process Monitors//PROCESSES probe
+-----------------------------
+•	LSASS / NTFRS CPU Usage		Done//PROCESSES probe
+•	LSASS / NTFRS Handle Count	Done//PROCESSES probe
+•	LSASS / NTFRS Process File Reads	Done//PROCESSES probe
+•	LSASS / NTFRS Process File Writes	Done//PROCESSES probe
+•	LSASS / NTFRS Process Memory	Done//PROCESSES probe
+
+•	AD Performance Counters
+-----------------------------
+•	DS Client Binds		//ntevl
+•	DS Server Binds		//ntevl
+•	Directory Reads		//Ad_Server
+•	Directory Writes	//Ad_Server
+•	Kerberos Authentications//ntevl
+•	LDAP Searches		//ntevl
+•	LDAP UDP Operations	//nic_monitor_probe
+•	LDAP Writes		
+•	NTLM Authentications	//ntevl
+•	Replication (Total) Objects In	//ntevl
+•	Replication (Total) Objects Out	//ntevl
+•	Replication Traffic In		//nic_monitor_probe
+•	Replication Traffic Out		//nic_monitor_probe
+
+
+
+
+
+/C01ISB-UIMPHUB_domain/C01ISB-UIMPHUB_hub/c01isb-uimcabi/cabi
+
+
+/C01ISB-UIMPHUB_domain/C01ISB-UIMPHUB_hub/c01isb-uimcabi
+
+
+
+
+
+
+
+

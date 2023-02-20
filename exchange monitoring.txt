@@ -1,0 +1,8 @@
+Initially please enable monitoring for the below:
+ 
+Profile  Perfmon:
+Transport Role: Active Mailbox Delivery Queue Length-Transport
+Transport Role: Retry Mailbox Delivery Queue Length-Transport
+Transport Role: Submission Queue Length
+Transport Role: Unreachable Queue Length-Transport
+Transport Role: Retry Non-Smtp Delivery Queue Length
