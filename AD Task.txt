@@ -63,10 +63,4 @@ Please share the timelines to complete AD tasks user details has been provided t
 
 /C01ISB-UIMPHUB_domain/C01ISB-UIMPHUB_hub/c01isb-uimcabi
 create new batch file.
-
-
-
-
-
-
-
+echo create line code
